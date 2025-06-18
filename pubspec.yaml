@@ -1,7 +1,7 @@
 name: generative_ai_ui_builder
 description: >
   A Flutter plugin that uses Google Gemini generative AI to turn natural language prompts into Flutter UI code. Ideal for rapid prototyping and AI-assisted app development.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/your-username/generative_ai_ui_builder
 repository: https://github.com/your-username/generative_ai_ui_builder
 issue_tracker: https://github.com/your-username/generative_ai_ui_builder/issues

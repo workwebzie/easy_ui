@@ -21,7 +21,7 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    _aiBuilder = GenerativeAIUIBuilder('adasdfasdasdasdasdasd');
+    _aiBuilder = GenerativeAIUIBuilder('#your_api_key_here'); // Replace with your actual API key
   }
 
   Future<void> _generateCode() async {
