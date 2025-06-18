@@ -1,0 +1,42 @@
+name: generative_ai_ui_builder
+description: >
+  A Flutter plugin that uses Google Gemini generative AI to turn natural language prompts into Flutter UI code. Ideal for rapid prototyping and AI-assisted app development.
+version: 0.0.1
+homepage: https://github.com/your-username/generative_ai_ui_builder
+repository: https://github.com/your-username/generative_ai_ui_builder
+issue_tracker: https://github.com/your-username/generative_ai_ui_builder/issues
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+  google_generative_ai: ^0.4.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.generative_ai_ui_builder
+        pluginClass: GenerativeAiUiBuilderPlugin
+      ios:
+        pluginClass: GenerativeAiUiBuilderPlugin
+
+# Ignore the example file that contains a hardcoded API key
+false_secrets:
+  - /example/lib/main.dart
+
+# Optional: Add screenshots for pub.dev
+# screenshots:
+#   - description: 'Prompt input screen'
+#     path: screenshots/prompt_input.png
+#   - description: 'Generated code output'
+#     path: screenshots/generated_code.png
