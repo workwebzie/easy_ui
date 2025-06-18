@@ -21,7 +21,7 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    _aiBuilder = GenerativeAIUIBuilder('AIzaSyBnEDR8tu75dsW570O5bZ2Ir9HaxEu5HJc');
+    _aiBuilder = GenerativeAIUIBuilder('adasdfasdasdasdasdasd');
   }
 
   Future<void> _generateCode() async {

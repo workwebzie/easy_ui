@@ -5,7 +5,7 @@ A Flutter plugin that leverages Google Gemini generative AI to convert natural l
 ## Features
 
 - Generate Flutter widget code from plain English prompts
-- Integrates with Google Gemini (Gemini 1.5 Pro and others)
+- Integrates with Google gemini-2.0-flash
 - Easy to use and extend
 
 ## Getting Started
@@ -31,7 +31,7 @@ print(code);
 
 final prompt = "A login screen with email and password fields, and a login button.";
 final code = await aiBuilder.generateFlutterUICode(prompt);
-// Use or display the generated code as needed
+ 
 
 ## Screenshots
 
@@ -44,4 +44,4 @@ final code = await aiBuilder.generateFlutterUICode(prompt);
 
 ## Issues
 
-<!-- Please file issues and feature requests at [GitHub Issues](https://github.com/your-username/generative_ai_ui_builder/issues). -->
+Please file issues and feature requests at [GitHub Issues](https://github.com/workwebzie/easy_ui/issues).
