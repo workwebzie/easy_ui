@@ -1,8 +1,6 @@
 # Changelog
 
-## 0.0.2
+## 0.0.4
 
-- Hidden .
-- Generate Flutter UI code from natural language using Google Gemini API.
-- Example app included.
-- Basic error handling and usage documentation.
+- Updated the links to repositories and issues
+
